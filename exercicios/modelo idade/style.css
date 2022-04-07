@@ -1,0 +1,32 @@
+body {
+  background: rgb(70, 142, 236);
+  font: normal 18pt Arial;
+  text-align: center;
+}
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+}
+
+#princ {
+  text-align: left;
+  margin: 0px;
+}
+h1 {
+  color: white;
+}
+strong {
+  font-size: 12pt;
+}
+img {
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+}
+footer {
+  color: rgba(255, 255, 255, 0.623);
+}

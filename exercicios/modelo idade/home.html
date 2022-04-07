@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="/modelo idade/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+      <div id="princ">
+        <p>
+          Ano de Nacimento:
+          <input type="number" name="txtano" id="txtano" min="1" max="100" />
+        </p>
+        <form>
+          <p>
+            Sexo:
+            <input
+              type="radio"
+              id="fem"
+              name="radsex"
+              value="Feminino"
+              checked
+            />
+            <label for="Feminino">Feminino</label>
+            <input type="radio" id="mas" name="radsex" value="Masculino" />
+            <label for="Masculino">Masculino</label>
+          </p>
+        </form>
+        <p>
+          <input
+            type="button"
+            id="verificar"
+            value="Verificar"
+            onclick="verificar()"
+          />
+        </p>
+      </div>
+      <div id="ress">Preencha os resultados para ver o Resultado</div>
+    </section>
+    <footer>
+      <p><i>&#0169; Herick A. Pereira</i></p>
+    </footer>
+  </body>
+</html>
