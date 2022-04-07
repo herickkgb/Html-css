@@ -1,0 +1,19 @@
+div {
+  display: flex;
+  background-color: lightgray;
+  text-align: center;
+  border: 1px solid black;
+  height: 50px;
+  width: 150px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+div > p {
+  display: block;
+}
+div:hover {
+  background-color: blue;
+  display: block;
+}

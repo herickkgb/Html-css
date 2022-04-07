@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospedagem de video</title>
+  </head>
+  <body>
+    <h1>inserindo Videos no Site</h1>
+    <p>este video esta hopendado no meu propio site</p>
+    <!-- colocar varios fomratos para abrangir mais tipos de navegadores ogv/mp4/m4v-->
+    <video
+      controls
+      width="500px"
+      poster="/estudos/Html-css/exercicios/ex012/imagens/Capturar.PNG"
+    >
+      <source
+        src="/estudos/Html-css/exercicios/ex012/midia/FUNK do Pão de Queijo - Bolofofos.ogv"
+        type="video/mp4"
+      />
+    </video>
+    <h1>videos do Youtube</h1>
+    <iframe
+      width="500"
+      height="281"
+      src="https://www.youtube.com/embed/FdE5G95B7Mg"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <h1>Vimeo</h1>
+    <p>
+      <iframe
+        src="https://player.vimeo.com/video/568179562?h=d162f46d2d&color=c9ff23&byline=0&portrait=0"
+        width="500"
+        height="281"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </p>
+  </body>
+</html>
